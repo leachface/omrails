@@ -1,12 +1,11 @@
 <% if user_signed_in? %>
-	<h1>You're logged in!</h1>
+	<h1>Hey Friend! You're Feather & Minting right now!</h1>
 <%else%>
 <div class="hero-unit">
-	<h1>Welcome to One Month Rails!</h1>
+	<h1>Welcome to Feather & Mint</h1>
 	<p>
-		You've found the home page for the
-		<%= link_to "One Month Rails", "http://onemonthrails.com" %>
-		application.
+		Connecting travelers to local culture.
+		<%= link_to "Find it Local!", "http://featherandmint.com" %>
 	</p>
 	<p>
 		<%= link_to "Sign Up Now!", new_user_registration_path, class: "btn btn-primary btn-large" %>
